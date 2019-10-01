@@ -33,9 +33,10 @@ for (let i = 0; i < dataPokemon.length ; i++) {
     pokeImage.src = dataPokemon[i].img;
 
 //Se le da un padre a todos los elementos creados para imprimirlos
-pokeContainer.appendChild(pokeImage);    
-pokeContainer.appendChild(pokeName);
+
     pokeContainer.appendChild(pokeNum);
+    pokeContainer.appendChild(pokeImage);    
+    pokeContainer.appendChild(pokeName);
     pokeContainer.appendChild(pokeEgg);
     pokeContainer.appendChild(pokeWeaknesses);
     
@@ -82,10 +83,10 @@ const result = window.data.result(dataPokemon, condition);
         const pokeImage = document.createElement("img");
         pokeImage.className = "pokeImg";
         pokeImage.src = result[j].img;
-        
+
+        pokeContainer.appendChild(pokeNum);
         pokeContainer.appendChild(pokeImage);
         pokeContainer.appendChild(pokeName);
-        pokeContainer.appendChild(pokeNum);
         pokeContainer.appendChild(pokeEgg);
         pokeContainer.appendChild(pokeWeaknesses);
         document.getElementById("container").appendChild(pokeContainer).innerHTML;
