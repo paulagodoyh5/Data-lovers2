@@ -33,6 +33,8 @@ body{
     box-shadow: -3px 0px 54px -20px rgba(0,0,0,0.54);
     overflow: hidden;
     font-family: sans-serif;
+    margin-top: 2%;
+    font-size: 12px;
 }
 
 #container{
@@ -40,15 +42,15 @@ body{
     flex-flow:wrap;
     overflow: hidden;
     justify-content: space-around;
+
 }
 #filterSelect {
-    width: 80%;
+    width: 30%;
     height: 30px;
     font-size: 10pt;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 30px;
     background: #6D86ED;
     color:#FFF;
   }
+
     
