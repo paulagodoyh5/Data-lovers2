@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.pokeImagen {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+h2 {
+    color: #FFF;
+    font-family: sans-serif;
+}
+body{
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(imagenes/estrellado-01.jpg);
+    background-position-x: center;
+    color: black;
+}
+.pokeContain{
+    background: lightgray;
+    border-radius: 2%;
+    width: 15%; 
+    height: 30%;
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+    box-shadow: -3px 0px 54px -20px rgba(0,0,0,0.54);
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+#container{
+    display: flex;
+    flex-flow:wrap;
+    overflow: hidden;
+    justify-content: space-around;
+}
+#filterSelect {
+    width: 80%;
+    height: 30px;
+    font-size: 10pt;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background: #6D86ED;
+    color:#FFF;
+  }
+    
